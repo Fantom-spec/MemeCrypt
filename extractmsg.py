@@ -20,4 +20,3 @@ def extract_message_from_image(image_path):
                 message_bits = binary_data[:-16]
                 return binary_to_text(message_bits)
     return "No hidden message found."
-

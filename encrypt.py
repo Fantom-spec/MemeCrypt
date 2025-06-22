@@ -4,4 +4,3 @@ def enc(msg):
         key=f.read()
     fernet=fr(key)
     return fernet.encrypt(msg.encode())
-print(enc("Hello"))

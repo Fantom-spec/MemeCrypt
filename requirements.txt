@@ -1,2 +1,5 @@
 cryptography
 Pillow
+requests
+random
+os

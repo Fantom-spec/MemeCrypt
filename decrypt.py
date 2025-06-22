@@ -4,3 +4,4 @@ def denc(msg):
         key=f.read()
     fernet=fr(key)
     return fernet.decrypt(msg).decode()
+print(denc('gAAAAABoWBDO9SaBzbR7EvLCpIJTGzyqsjeMliH_e9_C_vLLYpHU0VVLZjLDNhhbhbZhqg1mtfCZUp2gz-LNU2MB284QmJjEqg=='))
